@@ -1,5 +1,7 @@
+/* eslint-disable no-undef */
 /* eslint-disable no-unused-vars */
 import React from 'react'
+import bg1 from "./images/monochrome-beauty-product-skincare.jpg";
 
 function Banner() {
   return (
@@ -8,7 +10,7 @@ function Banner() {
         
         <div className=" relative  ">
           <img
-            src="/public/monochrome-beauty-product-skincare.jpg"
+            src={bg1} 
             alt="Background"
             className="w-screen h-screen object-cover object-center"
           />
