@@ -8,7 +8,7 @@ function Banner() {
         
         <div className=" relative  ">
           <img
-            src="./src/assets/monochrome-beauty-product-skincare.JPG"
+            src="/src/assets/monochrome-beauty-product-skincare.JPG"
             alt="Background"
             className="w-screen h-screen object-cover object-center"
           />
